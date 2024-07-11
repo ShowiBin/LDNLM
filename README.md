@@ -8,4 +8,4 @@ This the python (Pytorch) implementation of the work "Linear Attention Based Dee
 - Run the main.py with the checkpoint file LDNLM_best.pt.
 
 ## Authors & Contacts
-All code was written by [Xiao Siyao](https://github.com/ShowiBin) key by key, maybe not easy to read. If you have any questions, please feel free to contact me via email: 
+All code was written by [Xiao Siyao](https://github.com/ShowiBin) key by key , maybe not easy to read :sweat_smile:. If you have any questions, please feel free to contact me via email: 
