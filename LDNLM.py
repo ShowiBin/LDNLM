@@ -4,18 +4,12 @@ from torch import nn
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-# from linear_transformer.linear_attention import LinearMultiHeadAttention
 from linear_attention_transformer import LinearAttentionTransformer
 
-rep_V=[]
+rep_V=[]# for visualization
 w=[]
 
-# train_img_size = [398,589]
-# device = 'cuda:0'
-# batch_size = 128
 
-# nei_size = 12 # 领域范围25*25
-# kernel_size = 1 #kernel范围3*3，向量长度9
 
 def merge_img(img_sets, size):
     '''将多个图像按照size拼起来'''#stand_width是patch的标准边长

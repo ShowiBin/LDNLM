@@ -68,8 +68,9 @@ img = ((np.float32(img)+1.0)/256.0)
 
 res,_ = f_attnlm(img[:512,:512])
 
-
-plt.imshow((res)*255,'gray',vmin=0,vmax=255)
+# Check the results
+plt.subplot(1,2,2);plt.imshow((res)*255,'gray',vmin=0,vmax=255)
+plt.subplot(1,2,1);plt.imshow(img[:256,:256]*255,'gray',vmin=0,vmax=255)
 plt.show()
 
 
