@@ -1,6 +1,6 @@
 # Linear Attention Based Deep Nonlocal Means Filtering for Multiplicative Noise Removal
 
-This the python (Pytorch) implementation of the work "Linear Attention Based Deep Nonlocal Means Filtering for Multiplicative Noise Removal". For more details in https://arxiv.org/abs/2407.05087.
+This the python (Pytorch) implementation of the work "Linear Attention Based Deep Nonlocal Means Filtering for Multiplicative Noise Removal". The paper introduces a novel method for filtering images with multiplicative noise, termed Linear Attention based Deep Nonlocal Means Filtering (LDNLM). Using SAR Despeckling as an example, LDNLM achieves sota deoising performance and high interpreterability. For more details in https://arxiv.org/abs/2407.05087.
 
 ## Usage
 - You can download the testing SAR image from https://www.dropbox.com/s/4gfkge0pqkuylmv/decorr_complex_tsx_SLC_0.mat?e=1&dl=0. Put it in this root directory.
